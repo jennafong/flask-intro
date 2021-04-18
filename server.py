@@ -1,4 +1,4 @@
-"""Greeting Flask app."""
+"""Greeting Flask app. NOTE TO FUTURE US - LEFT OFF AT "Allow users to choose their compliments"""
 
 from random import choice
 
@@ -18,7 +18,7 @@ AWESOMENESS = [
 def start_here():
     """Home page."""
 
-    return "<!doctype html><html>Hi! This is the home page.</html>"
+    return "<!doctype html><html>Hi! This is the home page. <a href='/hello'>Go to hello.</a></html>"
 
 
 @app.route('/hello')
